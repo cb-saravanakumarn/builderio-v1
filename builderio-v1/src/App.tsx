@@ -1,9 +1,8 @@
 import React from "react";
 import "./App.css";
-import "@chargebee/sting-react/sting-react.scss";
+import "./style.css";
 import { BuilderComponent, builder } from "@builder.io/react";
 import "./lib/builder-registry";
-import { SButton } from "@chargebee/sting-react";
 builder.init("6fc8a239bb834197943148b3e4ca1946");
 
 function App() {

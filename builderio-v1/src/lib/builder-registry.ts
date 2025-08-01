@@ -116,3 +116,4 @@ Builder.register("editor.settings", {
     // ... list your registered components
   ],
 });
+console.log("Registered components:", Builder.components);
